@@ -14,6 +14,6 @@ public class HelloController {
     }
 
     public void onWilliamButtonClick(ActionEvent actionEvent) {
-        welcomeText.setText("This button was developed by William Clark.");
+        welcomeText.setText("This button was developed and edited by William Clark.");
     }
 }
