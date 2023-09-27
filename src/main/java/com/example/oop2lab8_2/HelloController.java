@@ -16,4 +16,11 @@ public class HelloController {
     public void onWilliamButtonClick(ActionEvent actionEvent) {
         welcomeText.setText("This button was developed and edited by William Clark.");
     }
+
+    @FXML
+    protected void onHelloButtonClick1() {
+        welcomeText.setText("Welcome to something!");
+    }
+
+
 }
